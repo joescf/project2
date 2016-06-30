@@ -1,0 +1,30 @@
+{
+  "name": "project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joescf/project2.git"
+  },
+  "author": "Joe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joescf/project2/issues"
+  },
+  "homepage": "https://github.com/joescf/project2#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "ejs": "^2.4.2",
+    "express": "^4.14.0",
+    "express-session": "^1.13.0",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "session": "^0.1.0"
+  }
+}
