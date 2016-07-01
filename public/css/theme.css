@@ -1,0 +1,39 @@
+body {
+  background-color: #663300;
+}
+h1 {
+  text-align: center;
+  color: red;
+}
+h2 {
+  text-align: center;
+}
+.picOfPrize {
+  position: absolute;
+  right: 50px;
+  top: 400px;
+  height: 400px;
+  width: 400px;
+}
+.logins {
+  font-size: 33px;
+  display: inline;
+}
+.logDiv {
+  position: relative;
+  background-color: black;
+  left: 0;
+}
+/*a {
+  margin-right: 200px;
+  margin-left: 100px;
+}
+*/
+.memberLog {
+  position: relative;
+  left: 150px;
+}
+.newLog {
+  position: absolute;
+  right: 150px;
+}

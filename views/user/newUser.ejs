@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>New User Login</title>
+  <link rel="stylesheet" href="css/newUser.css">
+</head>
+<body>
+<% include ../partials/header -%>
+    <form action="/user/new" method="post">
+    <label for="">First Name:</label>
+    <input type="text" name="fname"><br>
+    <label for="">Last Name:</label>
+    <input type="text" name="lname"><br>
+    <label for="">Email:</label>
+    <input type="text" name="email"><br>
+    <label for="">Password:</label>
+    <input type="password" name="password"><br>
+    <input type="Submit" value="Create New User">
+  </form>
+</body>
+</html>
