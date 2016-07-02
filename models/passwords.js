@@ -25,7 +25,7 @@ function createUser( req, res, next) {
         email: email,
         passwordDigest: hash
       }
-      db.collection('users').insertOne(userInfo, function(err, result) {
+      db.collection('nobel').insertOne(userInfo, function(err, result) {
         if(err) throw err;
         next();
       });
@@ -38,7 +38,7 @@ function loginUser(req,res,next){
   let password = req.body.password;
 
   MongoClient.connect(dbConnection, function(err, db){
-    db.collection('users').findOne({"email":email}, function(err, user){
+    db.collection('nobel').findOne({"email":email}, function(err, user){
       if (err)throw err;
       if(user === null){
         console.log('can\'t find user with email ', email);
