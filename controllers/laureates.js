@@ -1,5 +1,5 @@
-const router              = require('express').Router();
-const { filterLaureates } = require('../models/laureate');
+const router                 = require('express').Router();
+const { filterLaureatestwo } = require('../models/laureate');
 // const request          = require('request');
 // const express          = require('express');
 // const app              = express();
@@ -8,8 +8,8 @@ const { filterLaureates } = require('../models/laureate');
 // const laureate        = require('../models/laureate');
 // const filterLaureates = require('../models/laureate');
 
-router.get('/',filterLaureates, function(req, res) {
-res.send('hello');
+router.get('/', filterLaureatestwo, function(req, res) {
+res.render('searchNobel');
 });
 
 module.exports = router;
