@@ -15,7 +15,7 @@ const apiURL2     = 'http://api.nobelprize.org/v1/prize.json';
       url: apiURL,
       method:'get',
       qs: {
-
+        year : 1967
       },
       json:true
     },(err,result,body)=>{
@@ -31,7 +31,7 @@ const apiURL2     = 'http://api.nobelprize.org/v1/prize.json';
       request({
       url: apiURL2,
       method:'get',
-      qs: {},
+      qs: {year : 1967},
       json:true
     },(err,result,body)=>{
       if (err) throw err;

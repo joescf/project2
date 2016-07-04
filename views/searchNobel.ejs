@@ -4,7 +4,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Search Page</title>
-  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/searchPage.css">
+  <link href='https://fonts.googleapis.com/css?family=Rubik:400,400italic' rel='stylesheet' type='text/css'>
   <script type='text/javascript' src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
   <script type="text/javascript" src="/js/script.js"></script>
 </head>
@@ -14,17 +15,25 @@
 
       <img class="picOfPrize" src="../images/nobelPrize.png" alt="nobel">
 </header>
-<h1>pick a category</h1>
-<select name="category" id="categories">
-<!-- <option value="">Choose a category</option> -->
-<option value="physics">Physics</option>
-<option value="economics">Economics</option>
-<option value="medicine">Medicine</option>
-<option value="peace">Peace</option>
-<option value="chemistry">Chemistry</option>
-<option value="literature">Literature</option>
-</select>
-<br>
-<button id="sButton">Search</button>
+<h1>Select a year and the type of award to see who won it</h1>
+<div class="inputs">
+  <select class="choiceBox" name="category" id="categories">
+    <option value="">Choose a category</option>
+    <option value="physics">Physics</option>
+    <option value="economics">Economics</option>
+    <option value="medicine">Medicine</option>
+    <option value="peace">Peace</option>
+    <option value="chemistry">Chemistry</option>
+    <option value="literature">Literature</option>
+  </select>
+  <input class="choiceBox" type="text" id="year" placeholder="Choose a year">
+  <button class="choiceBox" id="sButton">Search</button>
+</div>
+<div class="nameOfWinnersDiv">
+
+</div>
+<div class="motivation">
+
+</div>
 </body>
 </html>

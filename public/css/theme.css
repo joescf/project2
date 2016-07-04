@@ -37,3 +37,27 @@ h2 {
   position: absolute;
   right: 150px;
 }
+.picOfCity {
+  position: absolute;
+  left: 50px;
+  top: 400px;
+  height: 250px;
+  width: auto;
+}
+.description {
+  font-size: 18px;
+  color: rgb(120, 0, 230);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
