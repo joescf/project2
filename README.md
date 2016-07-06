@@ -10,9 +10,12 @@ User Stories
 As a user I will need to first create an account with aprropriate login information.
 
 After verification I will be able to view information on any Nobel laureate
-from nobelprize.org.
+from nobelprize.org, Based on the parameters that I put in.
 
 My selection will be appropriately filter basd on the information I provide.
+
+In addition to seeing who won the nobel prize that year for a given category I will
+also be able to see why they won.
 <<<<<<< HEAD
 =======
 
